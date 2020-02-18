@@ -5,7 +5,8 @@ class Cuerpo extends React.Component {
       
         const header = {
           paddingTop: "2%",
-          textDecoration: "underline #CC6600"
+          textDecoration: "underline #CC6600",
+          fontFamily: "Akronim"
         };
 
         const texto = {

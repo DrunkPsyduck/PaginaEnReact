@@ -16,6 +16,7 @@ class Cabecera extends React.Component{
 
         const h1 = {
             fontSize: '6vp'
+            
         }
        
      return (

@@ -1,18 +1,47 @@
 import React from 'react';
 
+import GitHub from '../Vector/GitHub-Mark-64px.png';
+
 class Footer extends React.Component {
     render() {
       const footer = {
             backgroundColor: '#99CCFF',
+            fontWeight: 'bold',
             padding: '2%'
         }
-        return ( 
-            <React.Fragment>
-                <footer style={footer}>
-                    < div > < p > Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin fermentum, urna vel rutrum ullamcorper, urna felis cursus sapien, id ornare ligula urna sed eros.In ornare eu justo vitae pharetra.Nunc maximus dolor augue.Nulla ac vulputate ipsum.Cras et metus sit amet elit vulputate condimentum et a massa.Vivamus a rutrum leo, id fringilla lorem.
-                     </p> </div >
-                </footer>
-            </React.Fragment>
+        var texto = {
+            color: '#CC6600',
+            textDecoration: 'underline #6699CC',
+            padding: '2% 5%'
+        }
+
+        var rojo = {
+            backgroundColor: 'red',
+            color: 'red'
+        }
+
+         var amarillo = {
+           backgroundColor: "yellow",
+           color: "red",
+           padding: '0.5%'
+         };
+        return (
+          <React.Fragment>
+            <footer style={footer}>
+              <div>
+                {" "}
+                <p style={texto}>Redes sociales</p>{" "}
+              </div>
+              <a href="https://github.com/DrunkPsyduck" target="blank_">
+                <img src={GitHub} alt="GitHub" />
+              </a>
+              <div>
+                <div style={rojo}>.</div>
+                <div style={amarillo}>Desarrollado en España</div>
+                <div style={rojo}>.</div>
+              </div>
+            </footer>
+          </React.Fragment>
         );
     }
 }

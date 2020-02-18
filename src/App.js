@@ -12,8 +12,9 @@ function App() {
   return (
     <body className="App">
       <Cabecera />
-      <Cuerpo />
+      < Cuerpo />
       <Proyectos />
+     
       <Footer />
     </body>
   );

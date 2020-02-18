@@ -9,11 +9,13 @@ class Proyectos extends React.Component {
 
     const cabecera = {
         paddingTop: "2%",
-        textDecoration: "underline #CC6600"
+        textDecoration: "underline #CC6600",
+        fontFamily: 'Permanent Marker'
     };
 
     const texto = {
-      padding: "0% 8%"
+      padding: "0% 8%",
+      fontWeight: '500'
     };
 
     return (
@@ -36,8 +38,7 @@ class Proyectos extends React.Component {
           fringilla facilisis, felis mauris imperdiet elit, id pretium mauris
           diam posuere ligula. Suspendisse vel risus ex. Sed et urna
           ullamcorper, condimentum justo nec, auctor purus. Aliquam id lorem
-          aliquet, mollis nulla sed, suscipit sapien. Pellentesque eleifend
-          nulla imperdiet ex faucibus dapibus.
+          aliquet, mollis nulla sed, suscipit sapien. 
         </p>
       </section>
     );

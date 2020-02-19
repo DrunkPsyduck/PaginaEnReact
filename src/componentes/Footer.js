@@ -1,12 +1,11 @@
 import React from "react";
-import '../App.css';
+import "../App.css";
 
 import GitHub from "../Vector/GitHub-Mark-64px.png";
 import LinkedIn from "../Vector/LI-In-Bug.png";
 
 class Footer extends React.Component {
   render() {
-    
     const footer = {
       backgroundColor: "#99CCFF",
       fontWeight: "bold",
@@ -15,7 +14,7 @@ class Footer extends React.Component {
     var texto = {
       color: "#CC6600",
       textDecoration: "underline #6699CC",
-      padding: "2% 5%"
+      padding: "1% 5%"
     };
 
     var rojo = {
@@ -34,17 +33,24 @@ class Footer extends React.Component {
           <div>
             <p style={texto}> Redes sociales </p>
           </div>
-          <a href="https://github.com/DrunkPsyduck" target="blank_">
-            <img src={GitHub} alt="GitHub" />
-          </a>
-          <a href="https://www.linkedin.com/in/mariocanalessanchez/" target="blank_">
-            <img src={LinkedIn} alt="LinkedIn"  />
-          </a>
+          <div>
+            <a href="https://github.com/DrunkPsyduck" target="_blank">
+              <img src={GitHub} alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/mariocanalessanchez/"
+              target="_blank"
+            >
+              <img src={LinkedIn} alt="LinkedIn" />
+            </a>
+          </div>
+          {/*
           <div>
             <div style={rojo}> . </div>
             <div style={amarillo}> Desarrollado en España </div>
             <div style={rojo}> . </div>
           </div>
+          */}
         </footer>
       </React.Fragment>
     );

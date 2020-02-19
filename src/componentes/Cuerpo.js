@@ -9,7 +9,7 @@ class Cuerpo extends React.Component {
         const header = {
           paddingTop: "2%",
           textDecoration: "underline #CC6600",
-          fontFamily: "Akronim",
+          fontFamily: "Permanent Marker",
           fontSize: '2em'
         };
 

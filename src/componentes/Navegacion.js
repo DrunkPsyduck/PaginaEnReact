@@ -11,7 +11,7 @@ class Navegacion extends React.Component {
       <React.Fragment>
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
           <a class="navbar-brand" href="#">
-            hola munda
+            Nav
           </a>
           <button
             class="navbar-toggler"
@@ -27,17 +27,17 @@ class Navegacion extends React.Component {
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#Inicio">
                   Inicio <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#About">
                   Sobre Mí
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#Proyectos">
                   Mis Conociminetos
                 </a>
               </li>

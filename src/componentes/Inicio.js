@@ -21,7 +21,7 @@ class Inicio extends React.Component{
        
      return (
         <React.Fragment>
-            <header style={fondo}>
+            <header style={fondo} id="Inicio">
                 <h1 style={subrayado}>Mario Canales</h1>
                 <h3 style={subrayado}> FullStack Developer</h3>
             </header>

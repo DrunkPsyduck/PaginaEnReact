@@ -15,7 +15,7 @@ class Proyectos extends React.Component {
     };
 
     return (
-      <section className={contenedor} >
+      <section className={contenedor} id="Proyectos">
         <h1 style={cabecera}>Mis proyectos</h1>
         <p style={texto}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin

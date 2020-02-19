@@ -7,7 +7,7 @@ class Cuerpo extends React.Component {
           padding: "1%"
         };
         const header = {
-          paddingTop: "2%",
+          paddingTop: "4%",
           textDecoration: "underline #CC6600",
           fontFamily: "Permanent Marker",
           fontSize: '2em'
@@ -19,7 +19,7 @@ class Cuerpo extends React.Component {
         }
 
         return (
-          <div>
+          <div id="About">
             <section style={section}>
               <article>
                 <h1 style={header}>Sobre mi</h1>

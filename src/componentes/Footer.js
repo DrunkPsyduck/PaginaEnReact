@@ -44,13 +44,12 @@ class Footer extends React.Component {
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
           </div>
-          {/*
+          
           <div>
             <div style={rojo}> . </div>
             <div style={amarillo}> Desarrollado en España </div>
             <div style={rojo}> . </div>
           </div>
-          */}
         </footer>
       </React.Fragment>
     );

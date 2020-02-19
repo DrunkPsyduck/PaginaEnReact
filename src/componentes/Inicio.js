@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Cabecera extends React.Component{
+class Inicio extends React.Component{
     render(){
         const fondo = {
             backgroundColor: '#6699CC',
@@ -31,4 +31,4 @@ class Cabecera extends React.Component{
 }
 }
 
-export default Cabecera;
+export default Inicio;

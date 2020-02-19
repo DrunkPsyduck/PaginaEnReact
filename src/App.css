@@ -50,3 +50,9 @@
 .texto {
   text-decoration: none;
 }
+
+img {
+  width: 50px;
+  height: auto;
+  padding: 1%;
+}

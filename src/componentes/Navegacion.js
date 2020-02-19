@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css';
 
 class Navegacion extends React.Component {
   render() {
@@ -7,12 +8,11 @@ class Navegacion extends React.Component {
       padding: "5%",
       color: "white"
     };
+
+
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-          <a class="navbar-brand" href="#">
-            Nav
-          </a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
           <button
             class="navbar-toggler"
             type="button"
@@ -38,34 +38,8 @@ class Navegacion extends React.Component {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Proyectos">
-                  Mis Conociminetos
-                </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
                   Mis Proyectos
                 </a>
-                <div
-                  class="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                  <a class="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                  <a class="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </div>
               </li>
             </ul>
           </div>

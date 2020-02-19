@@ -55,4 +55,25 @@ img {
   width: 6%;
   height: auto;
   padding: 1%;
+
+}
+
+.portada{
+  height: 100vh;
+  background-color: #6699CC;
+
+  background-image: url("https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg" );
+  color: #CC6600;
+  font-family: 'Lacquer';
+}
+
+h1 {
+   padding-top: 4%;
+   text-decoration: underline #CC6600;
+   font-family: 'Permanent Marker';
+}
+
+.navbar {
+  background-color: grey;
+  color: green;
 }

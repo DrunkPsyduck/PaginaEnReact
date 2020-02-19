@@ -17,16 +17,7 @@ class Footer extends React.Component {
       padding: "1% 5%"
     };
 
-    var rojo = {
-      backgroundColor: "red",
-      color: "red"
-    };
 
-    var amarillo = {
-      backgroundColor: "yellow",
-      color: "red",
-      padding: "0.5%"
-    };
     return (
       <React.Fragment>
         <footer style={footer}>
@@ -42,11 +33,7 @@ class Footer extends React.Component {
             </a>
           </div>
           
-          <div>
-            <div style={rojo}> . </div>
-            <div style={amarillo}> Desarrollado en España </div>
-            <div style={rojo}> . </div>
-          </div>
+        
         </footer>
       </React.Fragment>
     );

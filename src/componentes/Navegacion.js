@@ -11,7 +11,7 @@ class Navegacion extends React.Component {
       <React.Fragment>
         <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
           <a class="navbar-brand" href="#">
-            Mario Canales
+            hola munda
           </a>
           <button
             class="navbar-toggler"

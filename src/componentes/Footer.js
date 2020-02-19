@@ -6,7 +6,7 @@ import LinkedIn from "../Vector/LI-In-Bug.png";
 
 class Footer extends React.Component {
   render() {
-    const footer = {
+    /*const footer = {
       backgroundColor: "#99CCFF",
       fontWeight: "bold",
       padding: "1%"
@@ -26,12 +26,12 @@ class Footer extends React.Component {
       backgroundColor: "yellow",
       color: "red",
       padding: "0.5%"
-    };
+    };*/
     return (
       <React.Fragment>
-        <footer style={footer}>
+        <footer style={{/*footer*/}}>
           <div>
-            <p style={texto}> Redes sociales </p>
+            <p style={{/*texto*/}}> Redes sociales </p>
           </div>
           <div>
             <a href="https://github.com/DrunkPsyduck" target="_blank">
@@ -45,11 +45,11 @@ class Footer extends React.Component {
             </a>
           </div>
           
-          <div>
+          {/*<div>
             <div style={rojo}> . </div>
             <div style={amarillo}> Desarrollado en España </div>
             <div style={rojo}> . </div>
-          </div>
+          </div>*/}
         </footer>
       </React.Fragment>
     );

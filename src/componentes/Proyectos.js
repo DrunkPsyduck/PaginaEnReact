@@ -1,5 +1,4 @@
 import React from "react";
-import styles from '../App.css';
 
 class Proyectos extends React.Component {
   render() {

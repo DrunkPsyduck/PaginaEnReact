@@ -1,11 +1,8 @@
 import React from "react";
+import styles from '../App.css';
 
 class Proyectos extends React.Component {
   render() {
-    const contenedor = {
-      backgroundColor: "#6699CC",
-      padding: '2%'
-    };
 
     const cabecera = {
         paddingTop: "2%",
@@ -19,7 +16,7 @@ class Proyectos extends React.Component {
     };
 
     return (
-      <section style={contenedor}>
+      <section className={styles.contenedor} >
         <h1 style={cabecera}>Mis proyectos</h1>
         <p style={texto}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin

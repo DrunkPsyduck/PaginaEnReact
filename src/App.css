@@ -36,9 +36,15 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.contenedor {
+  background-Color: #6699CC;
+  padding: '2%';
 }
 
 .texto {

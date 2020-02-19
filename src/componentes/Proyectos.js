@@ -3,7 +3,7 @@ import styles from '../App.css';
 
 class Proyectos extends React.Component {
   render() {
-
+    let contenedor = 'contenedor';
     const cabecera = {
         paddingTop: "2%",
         textDecoration: "underline #CC6600",
@@ -11,12 +11,12 @@ class Proyectos extends React.Component {
     };
 
     const texto = {
-      padding: "0% 8%",
+      padding: "0% 8% 2% 8%",
       fontWeight: '500'
     };
 
     return (
-      <section className={styles.contenedor} >
+      <section className={contenedor} >
         <h1 style={cabecera}>Mis proyectos</h1>
         <p style={texto}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin

@@ -3,12 +3,7 @@ import '../App.css';
 
 class Navegacion extends React.Component {
   render() {
-    const color = {
-      backgroundColor: "#000",
-      padding: "5%",
-      color: "white"
-    };
-
+    
 
     return (
       <React.Fragment>

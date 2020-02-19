@@ -7,13 +7,14 @@ import LinkedIn from "../Vector/LI-In-Bug.png";
 class Footer extends React.Component {
   render() {
     const footer = {
-      backgroundColor: "#99CCFF",
+      backgroundColor: "#888",
       fontWeight: "bold",
       padding: "1%"
     };
     var texto = {
-      color: "#CC6600",
+      color: "#fff",
       textDecoration: "underline #6699CC",
+      fontWeight: '800',
       padding: "1% 5%"
     };
 
@@ -25,10 +26,12 @@ class Footer extends React.Component {
             <p style={texto}> Redes sociales </p>
           </div>
           <div>
-            <a href="https://github.com/DrunkPsyduck" target="_blank">
+            <a href="https://github.com/DrunkPsyduck" target="_blank" rel="noopener noreferrer">
               <img src={GitHub} alt="GitHub" />
             </a>
-            <a href="https://www.linkedin.com/in/mariocanalessanchez/" target="_blank">
+            < a href = "https://www.linkedin.com/in/mariocanalessanchez/"
+            target = "_blank"
+            rel = "noopener noreferrer" >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
           </div>

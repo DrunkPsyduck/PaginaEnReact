@@ -20,7 +20,7 @@ function App() {
       
       <Cuerpo />
       <Proyectos />
-      
+     
       <Footer />
     </body>
   );

@@ -7,7 +7,7 @@ import img from '../Imagenes/12.PNG';
 class Inicio extends React.Component{
     render(){
         const fondo = {
-            height: '140vh',
+            height: '120vh',
             width: '100%',
             backgroundImage:  `url(${img})`,
             //transform: 'rotate(90deg)',

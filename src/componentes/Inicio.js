@@ -19,10 +19,10 @@ class Inicio extends React.Component{
         
         
         const posFlecha = {
-            paddingTop: '45%'
+            paddingTop: '35%'
         }
         const subrayado = {
-            textDecoration: 'underline',
+            textDecoration: 'underline overline',
             fontFamily: 'Lacquer'
         }
 
@@ -31,8 +31,12 @@ class Inicio extends React.Component{
         <React.Fragment>
             <div className={estilo.portada} style={fondo} id="Inicio">
                 <h1 style={subrayado}>Mario Canales</h1>
-                <h4 style={subrayado}> FUllStack Web Developer</h4>
-                < a href = "#navbarNavDropdown" >
+                <h4 style={subrayado}> FullStack Web Developer</h4>
+
+                <br></br>
+
+                <p style={subrayado}>Sigue bajando para descubrir más</p>
+                < a href  = "#navbarNavDropdown" >
                     <img src={flecha} style={posFlecha} alt=""></img></a>
             </div>
             

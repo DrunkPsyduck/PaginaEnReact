@@ -14,6 +14,7 @@ class Footer extends React.Component {
     var texto = {
       color: "#fff",
       textDecoration: "underline #6699CC",
+      fontSize: '3vh',
       fontWeight: '800',
       padding: "1% 5%"
     };
@@ -34,6 +35,7 @@ class Footer extends React.Component {
             rel = "noopener noreferrer" >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
+            
           </div>
           
         

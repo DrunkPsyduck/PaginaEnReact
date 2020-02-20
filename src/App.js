@@ -11,16 +11,14 @@ function App() {
   return (
     <body className="App">
       {/*Esto es un comentario JSX
-              Los componentes se muestras en la pagina segun se etiqueten: En este caso Primero ira <Inicio /> y luego <Navbar />
-            */}
-      <div>
-      <Inicio />
-      </div>
-      <Navegacion /> 
+                    Los componentes se muestras en la pagina segun se etiqueten: En este caso Primero ira <Inicio /> y luego <Navbar />
+      */}
       
+        <Inicio />
+      
+      <Navegacion />
       <Cuerpo />
       <Proyectos />
-     
       <Footer />
     </body>
   );

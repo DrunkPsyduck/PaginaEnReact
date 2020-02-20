@@ -43,7 +43,7 @@
 }
 
 .contenedor {
-  background-Color: #6699FF;
+  background-Color: #000;
   padding: 1%;
 }
 
@@ -70,6 +70,7 @@ h1 {
    padding-top: 4%;
    text-decoration: underline #CC6600;
    font-family: 'Permanent Marker';
+   color: 'white';
 }
 
 .navbar {

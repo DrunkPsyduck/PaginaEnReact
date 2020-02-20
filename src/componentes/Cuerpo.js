@@ -3,7 +3,8 @@ import React from 'react';
 class Cuerpo extends React.Component {
     render() {
         var section = {
-          backgroundColor: "#99CCFF",
+          backgroundColor: "#232b2b",
+          color: 'white',
           padding: "1%"
         };
         

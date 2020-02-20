@@ -7,7 +7,7 @@ class Navegacion extends React.Component {
 
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
           <button
             class="navbar-toggler"
             type="button"
@@ -15,8 +15,7 @@ class Navegacion extends React.Component {
             data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">

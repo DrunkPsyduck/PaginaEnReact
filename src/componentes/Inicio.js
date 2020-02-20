@@ -1,7 +1,7 @@
 import React from 'react';
 import estilo from "../App.css";
 
-import flecha from '../Vector/Arrow.svg';
+import flecha from '../Imagenes/descargar.svg';
 import img from '../Imagenes/12.PNG';
 
 class Inicio extends React.Component{
@@ -12,14 +12,14 @@ class Inicio extends React.Component{
             backgroundImage:  `url(${img})`,
             //transform: 'rotate(90deg)',
             backgroundColor: '#3f3f3f',
-            padding: "25% 15%",
+            padding: "22% 12%",
             //backgroundImage: "url( https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg )",
             color: "#CC6600"
             
         }     
         
         const posFlecha = {
-            paddingTop: '35%'
+            paddingTop: '10%'
         }
         const subrayado = {
             textDecoration: 'underline overline',
@@ -31,7 +31,7 @@ class Inicio extends React.Component{
         <React.Fragment>
             <div className={estilo.portada} style={fondo} id="Inicio">
                 <h1 style={subrayado}>D1ST0RS10N</h1>
-                <h4 style={subrayado}> FullStack Web Developer</h4>
+                <h4 style={subrayado}> FullStack W3B D3v3l0p3r</h4>
 
                 <br></br>
 

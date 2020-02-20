@@ -11,6 +11,7 @@ class Proyectos extends React.Component {
     };
 
     return (
+      //TODO Enlazar con la api de GitHub y sacar en una tabla los repositorios
       <section className={contenedor} id="Proyectos">
         <h1 style={{color: 'white'}}>Mis proyectos</h1>
         <p style={texto}>

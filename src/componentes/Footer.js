@@ -41,7 +41,7 @@ class Footer extends React.Component {
           
           </div>
           <div>
-              <button class="btn btn-primary" > <a href='#Inicio' style={enlace}> Volver Arriba </a></button >
+              <a class="btn btn-primary" href='#Inicio' style={enlace}> Volver Arriba </a >
           </div>
         
         </footer>

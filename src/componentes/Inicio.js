@@ -11,6 +11,7 @@ class Inicio extends React.Component{
             height: '120vh',
             width: '100%',
             backgroundImage:  `url(${img})`,
+              filter: 'blur(0px)',
             //transform: 'rotate(90deg)',
             backgroundColor: '#3f3f3f',
             padding: "15% 12%",

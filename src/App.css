@@ -64,25 +64,24 @@ img {
   transition: ease-in 1s;
 }
 
-img:hover{
- 
+img:hover {
+
   opacity: 1;
   height: auto;
 }
 
-.portada{
+.portada {
   height: 100vh;
   background-color: #6699CC;
-
   color: #CC6600;
   font-family: 'Lacquer';
 }
 
 h1 {
-   padding-top: 4%;
-   text-decoration: underline #CC6600;
-   font-family: 'Permanent Marker';
-   color: 'white';
+  padding-top: 4%;
+  text-decoration: underline #CC6600;
+  font-family: 'Permanent Marker';
+  color: 'white';
 }
 
 .navbar {

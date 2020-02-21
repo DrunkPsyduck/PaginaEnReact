@@ -13,7 +13,7 @@ class Inicio extends React.Component{
             backgroundImage:  `url(${img})`,
             //transform: 'rotate(90deg)',
             backgroundColor: '#3f3f3f',
-            padding: "22% 12%",
+            padding: "15% 12%",
             //backgroundImage: "url( https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg )",
             color: "#CC6600"
             
@@ -21,25 +21,22 @@ class Inicio extends React.Component{
        
         
         const posFlecha = {
-            width: '15%',
+            width: '10%',
             paddingTop: '10%',
             hover: 'width: 18%'
         }
         const subrayado = {
-            textDecoration: 'underline overline',
-            fontFamily: 'Lacquer'
+            textDecoration: 'underline',
+            fontFamily: 'Josefin Sans'
         }
 
       
      return (
        <React.Fragment>
          <div className={estilo.portada} style={fondo} id="Inicio">
-           <h1 style={subrayado}>D1ST0RS10N</h1>
-           <h4 style={subrayado}> FullStack W3B D3v3l0p3r</h4>
+           <h1 style={subrayado}>Mario Canales {/* // D1ST0RS10N */}</h1>
+           <h4 style={subrayado}> FullStack web Developer</h4>
 
-           <br></br>
-
-           <p style={subrayado}>Sigue bajando para descubrir más</p>
            <a href="#About">
              <img src={flecha} style={posFlecha} alt="flecha"></img>
            </a>

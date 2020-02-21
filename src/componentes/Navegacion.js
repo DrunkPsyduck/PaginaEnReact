@@ -39,11 +39,7 @@ class Navegacion extends React.Component {
                   Mis Proyectos
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Proyectos">
-                  Mis Proyectos
-                </a>
-              </li>
+              
               <li class="nav-item">
                 <a class="nav-link" href="#Footer">
                   Redes Sociales

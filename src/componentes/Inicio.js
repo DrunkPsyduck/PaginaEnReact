@@ -1,5 +1,6 @@
 import React from 'react';
 import estilo from "../App.css";
+import "../App.css";
 
 import flecha from '../Imagenes/descargar.svg';
 import img from '../Imagenes/12.PNG';
@@ -16,10 +17,14 @@ class Inicio extends React.Component{
             //backgroundImage: "url( https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg )",
             color: "#CC6600"
             
-        }     
+        }
+
+       
         
         const posFlecha = {
-            paddingTop: '10%'
+            width: '15%',
+            paddingTop: '10%',
+            hover: 'width: 18%'
         }
         const subrayado = {
             textDecoration: 'underline overline',
@@ -29,6 +34,7 @@ class Inicio extends React.Component{
       
      return (
         <React.Fragment>
+            
             <div className={estilo.portada} style={fondo} id="Inicio">
                 <h1 style={subrayado}>D1ST0RS10N</h1>
                 <h4 style={subrayado}> FullStack W3B D3v3l0p3r</h4>
@@ -37,7 +43,7 @@ class Inicio extends React.Component{
 
                 <p style={subrayado}>Sigue bajando para descubrir más</p>
                 < a href  = "#navbarNavDropdown" >
-                    <img src={flecha} style={posFlecha} alt=""></img></a>
+                    <img src={flecha} style={posFlecha} alt="flecha"></img></a>
             </div>
             
         </React.Fragment>

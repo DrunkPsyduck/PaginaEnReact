@@ -9,7 +9,7 @@ class Proyectos extends React.Component {
       fontWeight: "500",
       color: "#cc6600"
     };
-
+    
     return (
       //TODO Enlazar con la api de GitHub y sacar en una tabla los repositorios
       <section className={contenedor} id="Proyectos">

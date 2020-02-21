@@ -19,6 +19,7 @@ class Footer extends React.Component {
       padding: "1% 5%"
     };
 
+  
 
     return (
       <React.Fragment>
@@ -35,7 +36,7 @@ class Footer extends React.Component {
             rel = "noopener noreferrer" >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
-            
+            <a href='#About'>Volver Arriba</a>
           </div>
           
         

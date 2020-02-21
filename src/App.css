@@ -51,11 +51,22 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 6%;
   height: auto;
   padding: 1%;
+  opacity: 0.5;
+  transition: ease-in 1s;
+}
 
+img:hover{
+  width: 7%;
+  opacity: 1;
+  height: auto;
 }
 
 .portada{

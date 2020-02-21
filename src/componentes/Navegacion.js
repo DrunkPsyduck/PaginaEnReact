@@ -7,7 +7,10 @@ class Navegacion extends React.Component {
 
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="#nav" >
+        <nav
+          class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top"
+          id="#nav"
+        >
           <button
             class="navbar-toggler"
             type="button"
@@ -15,7 +18,8 @@ class Navegacion extends React.Component {
             data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -33,6 +37,16 @@ class Navegacion extends React.Component {
               <li class="nav-item">
                 <a class="nav-link" href="#Proyectos">
                   Mis Proyectos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Proyectos">
+                  Mis Proyectos
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Footer">
+                  Redes Sociales
                 </a>
               </li>
             </ul>

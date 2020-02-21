@@ -19,11 +19,13 @@ class Footer extends React.Component {
       padding: "1% 5%"
     };
 
-  
+    let enlace = {
+      color: 'white'
+    }
 
     return (
       <React.Fragment>
-        <footer style={footer}>
+        <footer style={footer} id="Footer">
           <div>
             <p style={texto}> Redes sociales </p>
           </div>
@@ -36,9 +38,11 @@ class Footer extends React.Component {
             rel = "noopener noreferrer" >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
-            <a href='#About'>Volver Arriba</a>
-          </div>
           
+          </div>
+          <div>
+              <button class="btn btn-primary" > <a href='#Inicio' style={enlace}> Volver Arriba </a></button >
+          </div>
         
         </footer>
       </React.Fragment>

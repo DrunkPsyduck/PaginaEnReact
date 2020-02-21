@@ -7,7 +7,7 @@ class Navegacion extends React.Component {
 
     return (
       <React.Fragment>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="#nav" >
           <button
             class="navbar-toggler"
             type="button"

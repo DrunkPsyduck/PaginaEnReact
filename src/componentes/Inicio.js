@@ -18,7 +18,6 @@ class Inicio extends React.Component{
             color: "#CC6600"
             
         }
-
        
         
         const posFlecha = {
@@ -33,21 +32,20 @@ class Inicio extends React.Component{
 
       
      return (
-        <React.Fragment>
-            
-            <div className={estilo.portada} style={fondo} id="Inicio">
-                <h1 style={subrayado}>D1ST0RS10N</h1>
-                <h4 style={subrayado}> FullStack W3B D3v3l0p3r</h4>
+       <React.Fragment>
+         <div className={estilo.portada} style={fondo} id="Inicio">
+           <h1 style={subrayado}>D1ST0RS10N</h1>
+           <h4 style={subrayado}> FullStack W3B D3v3l0p3r</h4>
 
-                <br></br>
+           <br></br>
 
-                <p style={subrayado}>Sigue bajando para descubrir más</p>
-                < a href  = "#navbarNavDropdown" >
-                    <img src={flecha} style={posFlecha} alt="flecha"></img></a>
-            </div>
-            
-        </React.Fragment>
-    );
+           <p style={subrayado}>Sigue bajando para descubrir más</p>
+           <a href="#About">
+             <img src={flecha} style={posFlecha} alt="flecha"></img>
+           </a>
+         </div>
+       </React.Fragment>
+     );
 }
 }
 

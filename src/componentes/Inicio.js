@@ -16,7 +16,7 @@ class Inicio extends React.Component{
             backgroundColor: '#3f3f3f',
             padding: "15% 12%",
             //backgroundImage: "url( https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg )",
-            color: "#CC6600"
+           
             
         }
        
@@ -26,17 +26,18 @@ class Inicio extends React.Component{
             paddingTop: '10%',
             hover: 'width: 18%'
         }
-        const subrayado = {
-            textDecoration: 'underline',
-            fontFamily: 'Josefin Sans'
-        }
+        const texto = {
+          textDecoration: "underline",
+          fontFamily: "Josefin Sans",
+          color: "#CC6600"
+        };
 
       
      return (
        <React.Fragment>
          <div className={estilo.portada} style={fondo} id="Inicio">
-           <h1 style={subrayado}>Mario Canales {/* // D1ST0RS10N */}</h1>
-           <h4 style={subrayado}> FullStack web Developer</h4>
+           <h1 style={texto}>Mario Canales {/* // D1ST0RS10N */}</h1>
+           <h4 style={texto}> FullStack web Developer</h4>
 
            <a href="#About">
              <img src={flecha} style={posFlecha} alt="flecha"></img>

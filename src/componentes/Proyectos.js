@@ -11,7 +11,7 @@ class Proyectos extends React.Component {
     };
     const tabla = {
       color: "orange",
-      margin: " 2% 15%",
+      margin: " 2% 10%",
       padding: "15%"
     };
     return (

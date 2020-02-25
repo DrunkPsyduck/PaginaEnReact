@@ -8,15 +8,15 @@ import img from '../Imagenes/12.PNG';
 class Inicio extends React.Component{
     render(){
         const fondo = {
-            height: '120vh',
-            width: '100%',
+            height: '100vh',
+            width: '90%',
             backgroundImage:  `url(${img})`,
               filter: 'blur(0px)',
             //transform: 'rotate(90deg)',
             backgroundColor: '#3f3f3f',
-            padding: "15% 12%",
+            padding: "15% 5%",
             //backgroundImage: "url( https://s3.envato.com/files/a4c2e1aa-9c57-4516-8d8b-9ae80aae23a5/inline_image_preview.jpg )",
-           
+           overflow: 'none'
             
         }
        

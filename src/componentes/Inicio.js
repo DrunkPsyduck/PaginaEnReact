@@ -9,7 +9,7 @@ class Inicio extends React.Component{
     render(){
         const fondo = {
             height: '100vh',
-            width: '90%',
+            width: '100',
             backgroundImage:  `url(${img})`,
               filter: 'blur(0px)',
             //transform: 'rotate(90deg)',

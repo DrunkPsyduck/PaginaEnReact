@@ -1,10 +1,8 @@
 import React from "react";
-import '../App.css';
+import "../App.css";
 
 class Navegacion extends React.Component {
   render() {
-    
-
     return (
       <React.Fragment>
         <nav
@@ -39,7 +37,7 @@ class Navegacion extends React.Component {
                   Mis Proyectos
                 </a>
               </li>
-              
+
               <li class="nav-item">
                 <a class="nav-link" href="#Footer">
                   Redes Sociales

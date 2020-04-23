@@ -36,7 +36,7 @@ class Inicio extends React.Component{
      return (
        <React.Fragment>
          <div className={estilo.portada} style={fondo} id="Inicio">
-           <h1 style={texto}>Mario Canales {/* // D1ST0RS10N */}</h1>
+           <h1 style={texto}>Mario AKA D15T0RS10N {/* // D1ST0RS10N */}</h1>
            <h4 style={texto}> FullStack web Developer</h4>
 
            <a href="#About">

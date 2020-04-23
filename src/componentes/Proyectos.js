@@ -7,95 +7,70 @@ class Proyectos extends React.Component {
     const texto = {
       padding: "0% 8% 2% 8%",
       fontWeight: "500",
-      color: "#cc6600"
+      color: "#cc6600",
     };
     const tabla = {
       color: "orange",
       margin: " 2% 10%",
-      padding: "15%"
+      padding: "15%",
     };
     return (
       //TODO Enlazar con la api de GitHub y sacar en una tabla los repositorios
       <section className={contenedor} id="Proyectos">
         <h1
           style={{
-            color: "white"
+            color: "white",
           }}
         >
           {" "}
           Mis proyectos{" "}
         </h1>{" "}
+
         <p style={texto}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin
-          fermentum, urna vel rutrum ullamcorper, urna felis cursus sapien, id
-          ornare ligula urna sed eros.In ornare eu justo vitae pharetra.Nunc
-          maximus dolor augue.Nulla ac vulputate ipsum.Cras et metus sit amet
-          elit vulputate condimentum et a massa.Vivamus a rutrum leo, id
-          fringilla lorem.In vitae auctor erat.Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia Curae; Nam gravida
-          laoreet leo nec dignissim.Mauris laoreet consequat vehicula.Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.Ut augue purus, placerat non ullamcorper ac, vestibulum
-          in massa.Phasellus sagittis lorem vel sagittis tempor.Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos.Mauris interdum euismod ornare.In consequat, tellus eu
-          fringilla facilisis, felis mauris imperdiet elit, id pretium mauris
-          diam posuere ligula.Suspendisse vel risus ex.Sed et urna ullamcorper,
-          condimentum justo nec, auctor purus.Aliquam id lorem aliquet, mollis
-          nulla sed, suscipit sapien.{" "}
-        </p>
-        <p style={texto}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin
-          fermentum, urna vel rutrum ullamcorper, urna felis cursus sapien, id
-          ornare ligula urna sed eros.In ornare eu justo vitae pharetra.Nunc
-          maximus dolor augue.Nulla ac vulputate ipsum.Cras et metus sit amet
-          elit vulputate condimentum et a massa.Vivamus a rutrum leo, id
-          fringilla lorem.In vitae auctor erat.Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia Curae; Nam gravida
-          laoreet leo nec dignissim.Mauris laoreet consequat vehicula.Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.Ut augue purus, placerat non ullamcorper ac, vestibulum
-          in massa.Phasellus sagittis lorem vel sagittis tempor.Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos.Mauris interdum euismod ornare.In consequat, tellus eu
-          fringilla facilisis, felis mauris imperdiet elit, id pretium mauris
-          diam posuere ligula.Suspendisse vel risus ex.Sed et urna ullamcorper,
-          condimentum justo nec, auctor purus.Aliquam id lorem aliquet, mollis
-          nulla sed, suscipit sapien.{" "}
-        </p>
-        <p style={texto}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.Proin
-          fermentum, urna vel rutrum ullamcorper, urna felis cursus sapien, id
-          ornare ligula urna sed eros.In ornare eu justo vitae pharetra.Nunc
-          maximus dolor augue.Nulla ac vulputate ipsum.Cras et metus sit amet
-          elit vulputate condimentum et a massa.Vivamus a rutrum leo, id
-          fringilla lorem.In vitae auctor erat.Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia Curae; Nam gravida
-          laoreet leo nec dignissim.Mauris laoreet consequat vehicula.Orci
-          varius natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus.Ut augue purus, placerat non ullamcorper ac, vestibulum
-          in massa.Phasellus sagittis lorem vel sagittis tempor.Class aptent
-          taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-          himenaeos.Mauris interdum euismod ornare.In consequat, tellus eu
-          fringilla facilisis, felis mauris imperdiet elit, id pretium mauris
-          diam posuere ligula.Suspendisse vel risus ex.Sed et urna ullamcorper,
-          condimentum justo nec, auctor purus.Aliquam id lorem aliquet, mollis
-          nulla sed, suscipit sapien.{" "}
+         Después de cada proyecto "terminado", me gusta observar que he aprendido mientras lo realizaba. En este caso, aprender cosas de React JS. AUqneu no solo me paro para comprender que he hecho, si que me gusta fijarme
+          en la consonancia de la página con aquello que quiero transmitir. Con cada proyecto que realizo no solo aprendo más cosas, si no que mejoro como programador. Se que algunos proyectos que tengo contienen errores o su 
+          apariencia no es la correcta. Pero con cada nuevo proyecto, con cada línea de código me convierto en mejor profesional.<br/>
+          A continución estarán listados los proyectos de los que me siento más orgulloso, sea por la dificultad inicial (por ejemplo, el ajedrez, que fue desarrollado en un mes y con pocos concimientos previos) o por 
         </p>{" "}
-        <table border="1" style={tabla}>
-          <tr>
-            <th> Repositorio </th> <th> Status </th>{" "}
-          </tr>{" "}
-          <tr>
-            <td> Lorem Ipsum </td> <td> Sit aemet </td>{" "}
-          </tr>{" "}
-          <tr>
-            <td> Lorem Ipsum </td> <td> Sit aemet </td>{" "}
-          </tr>
-          <tr>
-            <td> Lorem Ipsum </td> <td> Sit aemet </td>{" "}
-          </tr>
-        </table>{" "}
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col"> Proyecto </th>
+              <th scope="col"> Descripcion </th>{" "}
+              <th scope="col"> Repositorio </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"> iVehicle </th>
+              <td>
+                {" "}
+                Aplicación web que permite a añadir vehiculos y revisiones de
+                los vehiculos. TFG.{" "}
+              </td>
+              <td>
+                {" "}
+                <a href="https://github.com/DrunkPsyduck/iVehicle">iVehicle</a>{" "}
+              </td>{" "}
+            </tr>{" "}
+            <tr>
+              <th scope="row"> Ajedrez </th>
+              <td>
+                {" "}
+                Proyecto de un ajedrez sencillo escrito en java. Contiene
+                algunos erroreres. Aplicacion para el módulo de programación{" "}
+              </td>
+              <td>
+                {" "}
+                <a href="https://github.com/DrunkPsyduck/ajedrez">Ajedrez</a>{" "}
+              </td>{" "}
+            </tr>{" "}
+            <tr>
+              <th scope="row"> Calculadora </th> <td> Calculadora sencilla escrita en JavaScript Vanilla. Tiene las funcionalidades básicas. AL resolver una operacoón se puede copiar el resultado </td>
+              <td> <a href="https://github.com/DrunkPsyduck/Calculator">Calculator</a> </td>{" "}
+            </tr>{" "}
+          </tbody>{" "}
+        </table>
       </section>
     );
   }

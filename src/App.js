@@ -14,7 +14,7 @@ function App() {
                     Los componentes se muestras en la pagina segun se etiqueten: En este caso Primero ira <Inicio /> y luego <Navbar />
       */}
       
-        <Inicio />
+      <Inicio />
       
       <Navegacion />
       <Cuerpo />

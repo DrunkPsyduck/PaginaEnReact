@@ -10,7 +10,7 @@ class Navegacion extends React.Component {
           id="#nav"
         >
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavDropdown"

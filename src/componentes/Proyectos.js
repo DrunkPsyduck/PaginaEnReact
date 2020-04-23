@@ -25,17 +25,27 @@ class Proyectos extends React.Component {
           {" "}
           Mis proyectos{" "}
         </h1>{" "}
-
         <p style={texto}>
-         Después de cada proyecto "terminado", me gusta observar que he aprendido mientras lo realizaba. En este caso, aprender cosas de React JS. AUqneu no solo me paro para comprender que he hecho, si que me gusta fijarme
-          en la consonancia de la página con aquello que quiero transmitir. Con cada proyecto que realizo no solo aprendo más cosas, si no que mejoro como programador. Se que algunos proyectos que tengo contienen errores o su 
-          apariencia no es la correcta. Pero con cada nuevo proyecto, con cada línea de código me convierto en mejor profesional.<br/>
-          A continución estarán listados los proyectos de los que me siento más orgulloso, sea por la dificultad inicial (por ejemplo, el ajedrez, que fue desarrollado en un mes y con pocos concimientos previos) o por lo que significo 
-          hacerlos. Esta practica la llevo realizando desde que aprendí HTML y CSS con 17 años (Un poco tarde según a quien le preguntes) gracias a un profesor que decidio enseñarlo antes de que se viese en el siguiente curso.
-
-          Al principio creia que esas páginas estáticas, estaban bien creadas o que tenian consonancia. Nada más lejos de la realidad. Ahora las veo y si bien he mejorado, no se puede olvidar que gracias a esas páginas sin sentido 
+          Después de cada proyecto "terminado", me gusta observar que he
+          aprendido mientras lo realizaba. En este caso, aprender cosas de React
+          JS. AUqneu no solo me paro para comprender que he hecho, si que me
+          gusta fijarme en la consonancia de la página con aquello que quiero
+          transmitir. Con cada proyecto que realizo no solo aprendo más cosas,
+          si no que mejoro como programador. Se que algunos proyectos que tengo
+          contienen errores o su apariencia no es la correcta. Pero con cada
+          nuevo proyecto, con cada línea de código me convierto en mejor
+          profesional.
+          <br />A continución estarán listados los proyectos de los que me
+          siento más orgulloso, sea por la dificultad inicial (por ejemplo, el
+          ajedrez, que fue desarrollado en un mes y con pocos concimientos
+          previos) o por lo que significo hacerlos. Esta practica la llevo
+          realizando desde que aprendí HTML y CSS con 17 años (Un poco tarde
+          según a quien le preguntes) gracias a un profesor que decidio
+          enseñarlo antes de que se viese en el siguiente curso. Al principio
+          creia que esas páginas estáticas, estaban bien creadas o que tenian
+          consonancia. Nada más lejos de la realidad. Ahora las veo y si bien he
+          mejorado, no se puede olvidar que gracias a esas páginas sin sentido
           ahora, las organizo y desarrollo de otra manera.
-          
         </p>{" "}
         <table class="table table-dark">
           <thead>
@@ -51,11 +61,18 @@ class Proyectos extends React.Component {
               <td>
                 {" "}
                 Aplicación web que permite a añadir vehiculos y revisiones de
-                los vehiculos. TFG.{" "}
+                los vehiculos. Este proyecto se correspondería con el módulo de
+                Proyecto de Fin de Grado o Trabajo de Fin de Grado. Como deseés
+                llamarlo.{" "}
               </td>
               <td>
                 {" "}
-                <a href="https://github.com/DrunkPsyduck/iVehicle">iVehicle</a>{" "}
+                <a
+                  href="https://github.com/DrunkPsyduck/iVehicle"
+                  target="blank"
+                >
+                  iVehicle
+                </a>{" "}
               </td>{" "}
             </tr>{" "}
             <tr>
@@ -67,15 +84,63 @@ class Proyectos extends React.Component {
               </td>
               <td>
                 {" "}
-                <a href="https://github.com/DrunkPsyduck/ajedrez">Ajedrez</a>{" "}
+                <a
+                  href="https://github.com/DrunkPsyduck/ajedrez"
+                  target="blank"
+                >
+                  Ajedrez
+                </a>{" "}
               </td>{" "}
             </tr>{" "}
             <tr>
-              <th scope="row"> Calculadora </th> <td> Calculadora sencilla escrita en JavaScript Vanilla. Tiene las funcionalidades básicas. AL resolver una operacoón se puede copiar el resultado </td>
-              <td> <a href="https://github.com/DrunkPsyduck/Calculator">Calculator</a> </td>{" "}
+              <th scope="row"> Calculadora </th>{" "}
+              <td>
+                {" "}
+                Calculadora sencilla escrita en JavaScript Vanilla. Tiene las
+                funcionalidades básicas. Al resolver una operación se puede
+                copiar el resultado{" "}
+              </td>
+              <td>
+                {" "}
+                <a
+                  href="https://github.com/DrunkPsyduck/Calculator"
+                  target="blank"
+                >
+                  Calculator
+                </a>{" "}
+              </td>{" "}
+            </tr>{" "}
+            <tr>
+              <th scope="row"> Esta página </th>
+              <td>
+                {" "}
+                Esta página es un proyecto en si mismo. Mi intencion para con
+                ella es, aprender cosas básicas de React y a su vez tener un
+                portfolio, aunque sea básico.{" "}
+              </td>
+              <td>
+                {" "}
+                <a
+                  href="https://github.com/DrunkPsyduck/PaginaEnReact"
+                  target="blank"
+                >
+                  Repositorio
+                </a>{" "}
+              </td>{" "}
             </tr>{" "}
           </tbody>{" "}
         </table>
+        <div>
+          {" "}
+          <h3 style={{color: "white",}}>
+           Proyectos durante el COVID19</h3>{" "}
+          <p style={texto}>
+            Durante el confinamiento y debido al limbo en el que se encontro el
+            módulo de Formación en Centros de Trabajo, realicé avances en
+            proyectso personales como esta misma página. Otro de los proyectso
+            avanzados y de los más importantes fue mi TFG o PFG iVehicle.
+          </p>
+        </div>
       </section>
     );
   }

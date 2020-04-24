@@ -28,7 +28,8 @@ class Inicio extends React.Component{
         }
         const texto = {
           textDecoration: "underline",
-          fontFamily: "Josefin Sans",
+          fontFamily: "Josefin sans",
+          fontWeight: 100,
           color: "#CC6600"
         };
 
@@ -36,7 +37,7 @@ class Inicio extends React.Component{
      return (
        <React.Fragment>
          <div className={estilo.portada} style={fondo} id="Inicio">
-           <h1 style={texto}>Mario AKA Drunk Psyduck {/* // D1ST0RS10N */}</h1>
+           <h1 style={texto}>Mario {/* // D1ST0RS10N */}</h1>
            <h4 style={texto}> FullStack web Developer</h4>
 
            <a href="#About">

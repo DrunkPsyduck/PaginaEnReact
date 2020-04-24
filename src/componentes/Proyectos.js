@@ -130,17 +130,7 @@ class Proyectos extends React.Component {
             </tr>{" "}
           </tbody>{" "}
         </table>
-        <div>
-          {" "}
-          <h3 style={{color: "white",}}>
-           Proyectos durante el COVID19</h3>{" "}
-          <p style={texto}>
-            Durante el confinamiento y debido al limbo en el que se encontro el
-            módulo de Formación en Centros de Trabajo, realicé avances en
-            proyectso personales como esta misma página. Otro de los proyectso
-            avanzados y de los más importantes fue mi TFG o PFG iVehicle.
-          </p>
-        </div>
+        
       </section>
     );
   }

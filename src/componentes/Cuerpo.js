@@ -22,34 +22,6 @@ class Cuerpo extends React.Component {
             <br />
 
             <p style={texto}>
-              Si buscas la historio de un chico que aprendio a programar de
-              manera autodidacta con 10 años y que crecio entre ordenadores y
-              creando programas, entonces abandona esta página, por que esa no
-              es mi historia...
-            </p>
-            <p style={texto}>
-              Mi historia no es la de un estudiante modelo que saca todo
-              sobresalientes, más bien es al reves.
-            </p>
-            <p>
-              Durante muchos años, fui un mal estudiante, hasta que descubrí lo
-              que realmente me gustaba. Cuando empecé a programar, fue un cambio
-              radical, dejé de ser un estudiante mediocre a estar estudiando
-              toda la tarde y a aprender cosas por mi cuenta.
-            </p>
-            <p style={texto}>
-              En mis ratos libres me dedicaba a aprender nuevas partes de un
-              lenguaje, a aprender otros lenguajes nuevos o a leer algún libro
-              que nada tenía que ver con el mundo IT. En este periodo de tiempo,
-              no solo realice cambios a nivel intelectual, si no también a nivel
-              personal.{" "}
-            </p>
-            <p style={texto}>
-              Cuanto más me formaba, más crecía a nivel personal. Se podría
-              decir que mi historia, no es más que una serie de malas decisiones
-              que me enseñaron mucho más que si no me hubiese equivocado. Como
-              diría Oscar Wilde: “La experiencia es el nombre que damos a
-              nuestros errores”.
             </p>
           </div>
 

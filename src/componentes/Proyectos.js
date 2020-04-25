@@ -80,7 +80,7 @@ class Proyectos extends React.Component {
               <td>
                 {" "}
                 Proyecto de un ajedrez sencillo escrito en java. Contiene
-                algunos erroreres. Aplicacion para el módulo de programación {" "}
+                algunos erroreres. Aplicacion para el módulo de programación{" "}
               </td>
               <td>
                 {" "}
@@ -130,7 +130,17 @@ class Proyectos extends React.Component {
             </tr>{" "}
           </tbody>{" "}
         </table>
-        
+        <div>
+          <h1 style={{ color: "white" }}> Siguientes proyectos </h1>
+          <p style={texto}>
+            Aunque no aparezcan, hay muchos proyectos abandonados, que empecé y
+            no los termine. Algunos porque recapacite sobre ellos y al final no
+            era muy buena idea, otros porque dejaron de interesarme. Sea como
+            fuera, en el futuro habrá más proyectos, algunos más interesantes
+            que otros, desarrollados en solitario o en grupo.{" "}
+            Puedes seguirme por las redes sociales para enterarte en que proyectos ando metido. Podrás encontrarlas en el footer.
+          </p>
+        </div>
       </section>
     );
   }

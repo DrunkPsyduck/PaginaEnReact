@@ -17,7 +17,7 @@ class Cuerpo extends React.Component {
       <div id="About">
         <section style={section}>
           <article>
-            <h1>Sobre mi</h1>
+            <h1>Sobre mí</h1>
             <p style={texto}></p>
 
             <p style={texto}>
@@ -29,7 +29,7 @@ class Cuerpo extends React.Component {
               <h1>  Mis conocimientos </h1>
               <p style={texto}>
                 A lo largo de los años he ido adquiriendo conocimientos de lenguajes de programación. Aunque la lista de lenguajes que describiré a continuación, es el minímo que cualquier estudiante de 
-                DAW tendrá, aún así, merece divulgarlo.
+                DAW tendrá, aun así, merece divulgarlo.
 
               </p>
               <ul style={{ listStyleType: "none"}}>

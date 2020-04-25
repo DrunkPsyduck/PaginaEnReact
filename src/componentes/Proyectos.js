@@ -28,7 +28,7 @@ class Proyectos extends React.Component {
         <p style={texto}>
           Después de cada proyecto "terminado", me gusta observar que he
           aprendido mientras lo realizaba. En este caso, aprender cosas de React
-          JS. AUqneu no solo me paro para comprender que he hecho, si que me
+          JS. Aunque no solo me paro para comprender que he hecho, si que me
           gusta fijarme en la consonancia de la página con aquello que quiero
           transmitir. Con cada proyecto que realizo no solo aprendo más cosas,
           si no que mejoro como programador. Se que algunos proyectos que tengo
@@ -51,7 +51,7 @@ class Proyectos extends React.Component {
           <thead>
             <tr>
               <th scope="col"> Proyecto </th>
-              <th scope="col"> Descripcion </th>{" "}
+              <th scope="col"> Descripción </th>{" "}
               <th scope="col"> Repositorio </th>
             </tr>
           </thead>
@@ -62,7 +62,7 @@ class Proyectos extends React.Component {
                 {" "}
                 Aplicación web que permite a añadir vehiculos y revisiones de
                 los vehiculos. Este proyecto se correspondería con el módulo de
-                Proyecto de Fin de Grado o Trabajo de Fin de Grado. Como deseés
+                Proyecto de Fin de Grado o Trabajo de Fin de Grado. Como desees
                 llamarlo.{" "}
               </td>
               <td>
@@ -80,7 +80,7 @@ class Proyectos extends React.Component {
               <td>
                 {" "}
                 Proyecto de un ajedrez sencillo escrito en java. Contiene
-                algunos erroreres. Aplicacion para el módulo de programación{" "}
+                algunos erroreres. Aplicacion para el módulo de programación {" "}
               </td>
               <td>
                 {" "}

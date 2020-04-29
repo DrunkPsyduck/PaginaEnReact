@@ -20,8 +20,12 @@ class Cuerpo extends React.Component {
             <div>
             <h1>Sobre mí</h1>
             <br />
-
+              
             <p style={texto}>
+              Como desarrollador web conozco diversas tecnologías, pero eso no es todo. A parte de gustarme el mundo del desarrollo, también osy un apasionado a los deportes, tanto verlos como prácticarlos.<br/>
+
+              Como dijo Oscar Wilde, "La experiencia es el nombre que damos a nuestros errores" y a pesar de la poca trayectoria que tengo, he cometido algúnos errores, pero nunca me he arrepentido de ellos, puesto que dichos errores, <br/>
+              han hecho que mejore y me convierta en mejor persona y en mejor profesional. 
             </p>
           </div>
 
@@ -42,12 +46,13 @@ class Cuerpo extends React.Component {
                 <li> jQuery </li>
               </ul>
               <p style={texto}>
-                Estos lenguajes de programación, marcado o de bases de datos, son los aprendidos en el Grado Superior de DAW.
-                Debido a la corta extensión del curso, normalmente, se explica lo más básico de su funcionamiento.
+                Estos lenguajes de programación, marcado o de bases de datos, son los aprendidos en DAW.
+                Debido a la corta extensión del curso, normalmente, se explica lo más básico de su funcionamiento.<br/>
                 Por ello prfundicé en algunos temas (Java, JavaScript, Laravel, HTML, CSS y SQL principalmente) y aprendí 
-                más sobre su uso y funcionamiento. <br/><br/>
-                También quise aprender más cosas, quise empezar por <u>React</u> y aprender lo más básico. Esta página empezo como 
+                más sobre su uso y funcionamiento, sobre todo con Laravel y JavaScript <br/><br/>
+                También quise aprender más cosas, quise empezar por <u><span> React JS </span></u> y aprender lo más básico. Esta página empezo como 
                 un proyecto para aprender cosas básicas de React.
+                Además 
               </p>
             </div>
           </article>

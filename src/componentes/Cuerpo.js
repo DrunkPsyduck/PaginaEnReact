@@ -25,7 +25,7 @@ class Cuerpo extends React.Component {
               Como desarrollador web conozco diversas tecnologías, pero eso no es todo. A parte de gustarme el mundo del desarrollo, también osy un apasionado a los deportes, tanto verlos como prácticarlos.<br/>
 
               Como dijo Oscar Wilde, "La experiencia es el nombre que damos a nuestros errores" y a pesar de la poca trayectoria que tengo, he cometido algúnos errores, pero nunca me he arrepentido de ellos, puesto que dichos errores, <br/>
-              han hecho que mejore y me convierta en mejor persona y en mejor profesional. 
+              han conseguido que mejore y me convierta en mejor persona y en mejor profesional. 
             </p>
           </div>
 

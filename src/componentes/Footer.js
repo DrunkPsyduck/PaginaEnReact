@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "./App/App.css";
 
 import GitHub from "../Vector/GitHub-Mark-64px.png";
 import LinkedIn from "../Vector/LI-In-Bug.png";

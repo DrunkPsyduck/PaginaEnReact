@@ -26,119 +26,76 @@ class Proyectos extends React.Component {
           Mis proyectos{" "}
         </h1>{" "}
         <p style={texto}>
-          Después de cada proyecto "terminado", me gusta observar que he
-          aprendido mientras lo realizaba. En este caso, aprender cosas de React
-          JS. Aunque no solo me paro para comprender que he hecho, si que me
-          gusta fijarme en la consonancia de la página con aquello que quiero
-          transmitir. Con cada proyecto que realizo no solo aprendo más cosas,
-          si no que mejoro como programador. Se que algunos proyectos que tengo
-          contienen errores o su apariencia no es la correcta. Pero con cada
-          nuevo proyecto, con cada línea de código me convierto en mejor
-          profesional.
-          <br />A continución estarán listados los proyectos de los que me
-          siento más orgulloso, sea por la dificultad inicial (por ejemplo, el
-          ajedrez, que fue desarrollado en un mes y con pocos concimientos
-          previos) o por lo que significo hacerlos. Esta practica la llevo
-          realizando desde que aprendí HTML y CSS con 17 años (Un poco tarde
-          según a quien le preguntes) gracias a un profesor que decidio
-          enseñarlo antes de que se viese en el siguiente curso. Al principio
-          creia que esas páginas estáticas, estaban bien creadas o que tenian
-          consonancia. Nada más lejos de la realidad. Ahora las veo y si bien he
-          mejorado, no se puede olvidar que gracias a esas páginas sin sentido
-          ahora, las organizo y desarrollo de otra manera.
+         He trabajado en distintos proyectos distintos con diferentes tecnologías y con diferentes equipos.
+         A Continuación, expongo aquellos en los que más he aprendido.
         </p>{" "}
         <table class="table table-dark">
           <thead>
             <tr>
               <th scope="col"> Proyecto </th>
               <th scope="col"> Descripción </th>{" "}
-              <th scope="col"> Repositorio </th>
+              
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row"> iVehicle </th>
+              <th scope="row"> 
+                <a
+                  href="https://github.com/DrunkPsyduck/ZeiterFree"
+                  target="blank"
+                  >
+                  ZeiterFree
+                  </a>
+                </th>
               <td>
-                {" "}
-                Aplicación web que permite a añadir vehiculos y revisiones de
-                los vehiculos. Este proyecto se correspondería con el módulo de
-                Proyecto de Fin de Grado o Trabajo de Fin de Grado. Como desees
-                llamarlo.{" "}
+                
+               Este Proyecto fue una colaboración con PYV Tecnologías. desarrollado en equipo con Node.JS como servidor y con MongoDB como base de datos.
               </td>
               <td>
-                {" "}
-                <a
-                  href="https://github.com/DrunkPsyduck/iVehicle"
-                  target="blank"
-                >
-                  iVehicle
-                </a>{" "}
+                
+                
               </td>{" "}
             </tr>{" "}
             <tr>
-              <th scope="row"> Ajedrez </th>
-              <td>
-                {" "}
-                Proyecto de un ajedrez sencillo escrito en java. Contiene
-                algunos erroreres. Aplicacion para el módulo de programación{" "}
-              </td>
-              <td>
-                {" "}
-                <a
-                  href="https://github.com/DrunkPsyduck/ajedrez"
+              <th scope="row">
+              <a
+                  href="https://github.com/DrunkPsyduck/MoneyGo"
                   target="blank"
                 >
-                  Ajedrez
+                  MoneyGo
                 </a>{" "}
-              </td>{" "}
+              </th>
+              <td>
+               Proyecto personal para el máster FullStack, Multicloud y Multiplataforma impartido Tajamar.
+               Este proyecto utiliza .NET para el servidor y para la API que utiliza este proyecto.
+               Luego se migró para utilizar servicios en la nube, primero con Azure y luego con AWS.
+              </td>
+             
             </tr>{" "}
             <tr>
-              <th scope="row"> Calculadora </th>{" "}
-              <td>
-                {" "}
-                Calculadora sencilla escrita en JavaScript Vanilla. Tiene las
-                funcionalidades básicas. Al resolver una operación se puede
-                copiar el resultado{" "}
-              </td>
-              <td>
-                {" "}
-                <a
-                  href="https://github.com/DrunkPsyduck/Calculator"
+              <th scope="row">
+              <a
+                  href="https://github.com/DrunkPsyduck/MoneyGo"
                   target="blank"
                 >
-                  Calculator
+                  App MoneyGo
                 </a>{" "}
-              </td>{" "}
-            </tr>{" "}
-            <tr>
-              <th scope="row"> Esta página </th>
+              </th>
               <td>
-                {" "}
-                Esta página es un proyecto en si mismo. Mi intencion para con
-                ella es, aprender cosas básicas de React y a su vez tener un
-                portfolio, aunque sea básico.{" "}
+              Este proyecto es la continuación del anterior para móviles. Haciendo uso de Xamarin (ahora MAUI), se esta migrando el proyecto anterior a plataformas móviles.
+              La finalidad de esto, no es más que seguir aprendido Xamarin y satisfacer mi curiosidad.
               </td>
-              <td>
-                {" "}
-                <a
-                  href="https://github.com/DrunkPsyduck/PaginaEnReact"
-                  target="blank"
-                >
-                  Repositorio
-                </a>{" "}
-              </td>{" "}
+             
             </tr>{" "}
+
           </tbody>{" "}
         </table>
         <div>
           <h1 style={{ color: "white" }}> Siguientes proyectos </h1>
           <p style={texto}>
-            Aunque no aparezcan, hay muchos proyectos abandonados, que empecé y
-            no los termine. Algunos porque recapacite sobre ellos y al final no
-            era muy buena idea, otros porque dejaron de interesarme. Sea como
-            fuera, en el futuro habrá más proyectos, algunos más interesantes
-            que otros, desarrollados en solitario o en grupo.{" "}
-            Puedes seguirme por las redes sociales para enterarte en que proyectos ando metido. Podrás encontrarlas en el footer.
+           Unos de los grandes rasgos que a mí parecer deben tener los desarrolladores es la curiosidad. Esta curiosidad por seguir aprendiendo cosas nuevas, ya sea más partes del lenguaje que más les gusta
+          o, seguir buscando por un lenguaje con el que se sientan más comodos.<br/>
+          Es por esto anterior por lo que continue haciendo nuevos proyectos por mi cuenta, por seguir aprendido.
           </p>
         </div>
       </section>

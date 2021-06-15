@@ -1,3 +1,7 @@
+## Portfolio en React.
+Este portfolio fue creado cómo un proyecto para aprender lo básico de ReactJS. De ahí su simpleza y poca lógica.
+Ahora con más conocimientos sobre React, se reeescribira código y se pondrá más funcionalidad.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -33,6 +33,18 @@ class Navegacion extends React.Component {
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#Conocimientos">
+                  Conocimientos
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Educacion">
+                  Educacion
+                </a>
+              </li>
+
+              <li class="nav-item">
                 <a class="nav-link" href="#Proyectos">
                   Mis Proyectos
                 </a>

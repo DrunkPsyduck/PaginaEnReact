@@ -1,7 +1,7 @@
 import React from 'react';
-import az from "../Imagenes/azure-developer-associate-600x600.png";
-import aws from "../Imagenes/AWS-Developer-Associate-2020.png";
-import styles from "./App/App.css";
+import az from "../../Imagenes/azure-developer-associate-600x600.png";
+import aws from "../../Imagenes/AWS-Developer-Associate-2020.png";
+import "./conocimientos.css";
 
 class Conociemientos extends React.Component {
     render() {
@@ -14,14 +14,13 @@ class Conociemientos extends React.Component {
         color: "#cc6600",
       };
 
-      const certi = {
-        height: 100,
-        width: 100,
+      let img = {
+        width: 200
       }
   
       return (
         <div id="Conocimientos">
-          <section className={contenedor} id="Proyectos">
+          <section className={contenedor} >
             <article>
               <div>
               <h1  style={{color: "white",}}>
@@ -44,8 +43,8 @@ class Conociemientos extends React.Component {
                     Gracias a haber estado trabajando con estos proveedores y a los apuntes y conocimientos que recibí en el máster, pude obtener los certificados correspondientes a los exámenes
                      AZ-204 (Azure) y DVA-C01 (Amazon Web Services).
                      <br/>
-                    <a href="https://www.credly.com/earner/earned/badge/f38c45ea-c9f1-44aa-ac0f-0410ca716a95" target="_blank"><img src={az} className={styles.certi }/></a>
-                    <a href="https://www.credly.com/earner/earned/badge/ffac012f-2153-414c-a95f-a977fbebae47" target="_blank"><img src={aws} classNanme={styles.certi}/></a>  
+                    <a href="https://www.credly.com/badges/f38c45ea-c9f1-44aa-ac0f-0410ca716a95/public_url" target="_blank"><img src={az} style={img} /></a>
+                    <a href="https://www.credly.com/badges/ffac012f-2153-414c-a95f-a977fbebae47/public_url" target="_blank"><img src={aws} style={img}/></a>  
                     
                   </p>
                  

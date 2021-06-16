@@ -1,5 +1,5 @@
 import React from "react";
-import "./App/App.css";
+import styles from "./App/App.css";
 
 import GitHub from "../Vector/GitHub-Mark-64px.png";
 import LinkedIn from "../Vector/LI-In-Bug.png";
@@ -31,12 +31,12 @@ class Footer extends React.Component {
           </div>
           <div>
             <a href="https://github.com/DrunkPsyduck" target="_blank" rel="noopener noreferrer">
-              <img src={GitHub} alt="GitHub" />
+              <img className={styles.img} src={GitHub} alt="GitHub" />
             </a>
             < a href = "https://www.linkedin.com/in/mariocanalessanchez/"
             target = "_blank"
             rel = "noopener noreferrer" >
-              <img src={LinkedIn} alt="LinkedIn" />
+              <img  src={LinkedIn} alt="LinkedIn" />
             </a>
           
           </div>

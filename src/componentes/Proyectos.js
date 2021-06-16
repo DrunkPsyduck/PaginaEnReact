@@ -29,7 +29,7 @@ class Proyectos extends React.Component {
          He trabajado en distintos proyectos distintos con diferentes tecnologías y con diferentes equipos.
          A Continuación, expongo aquellos en los que más he aprendido.
         </p>{" "}
-        <table class="table table-dark">
+        <table className={tabla}class="table table-dark">
           <thead>
             <tr>
               <th scope="col"> Proyecto </th>
@@ -90,14 +90,7 @@ class Proyectos extends React.Component {
 
           </tbody>{" "}
         </table>
-        <div>
-          <h1 style={{ color: "white" }}> Siguientes proyectos </h1>
-          <p style={texto}>
-           Unos de los grandes rasgos que a mí parecer deben tener los desarrolladores es la curiosidad. Esta curiosidad por seguir aprendiendo cosas nuevas, ya sea más partes del lenguaje que más les gusta
-          o, seguir buscando por un lenguaje con el que se sientan más comodos.<br/>
-          Es por esto anterior por lo que continue haciendo nuevos proyectos por mi cuenta, por seguir aprendido.
-          </p>
-        </div>
+
       </section>
     );
   }

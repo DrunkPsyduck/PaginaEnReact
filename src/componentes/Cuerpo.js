@@ -24,7 +24,8 @@ class Cuerpo extends React.Component {
             He trabajado con distintas tecnologías web, siendo .NET y Node.JS los lenguajes en los que más me gusta desarrollar haciendo uso también de los frameworks React y Angular.
             Gracias a la experiencia trabajando con .NET y C#, soy capaz de desarrollar aplicaciones multiplataforma con Xamarin.
             <br />
-            
+            <p>Entusiasta del deporte al aire libre y de disfrutar de los pequeños detalles del día a día. No todo iba a ser hablar sobre lo que se hacer.<br /></p>
+            <p>Me gusta disfrutar de un día al aire libre mientras camino por el campo o realizo algun tipo de deporte, ya sea solo o en compañia. </p>
           </div>
           </article>
         </section>
